@@ -8,3 +8,11 @@ def insertion_sort_desc(arr):
             i = i - 1
 
         arr[i + 1] = key
+
+    return arr
+
+
+array = [5, 2, 4, 6, 1, 3]
+sorted_array = insertion_sort_desc(array)
+
+print("Sorted array (descending):", sorted_array)
